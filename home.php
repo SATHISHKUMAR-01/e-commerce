@@ -132,6 +132,9 @@ include('config/connect.php');
     </button>
     </div>
 
+    
+    <br>
+    <h4 class="text-center container text-secondary fs-3"> Shop By Categories</h4>
     <br>
 
     <div class="container row mx-auto my-1 ">
@@ -159,7 +162,7 @@ include('config/connect.php');
 
     <br><br>
     <h3 class="text-center text-secondary fs-1"> Today Deals</h3>
-    <br><br>
+    <br>
 
     <div class="container row mx-auto my-1">
         <div class="col">
@@ -217,7 +220,7 @@ include('config/connect.php');
 
     </div>
 
-    <br>
+    <br><br>
 
 
 
