@@ -38,6 +38,18 @@ include('config/connect.php');
             border: 2px solid #FFB6C1; 
             border-radius:20px;
         }
+        #vege-carousel{
+            background-image: url('./images/vegetable.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #fruit-carousel{
+            background-image: url('./images/fruits.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
         
        
     </style>
@@ -97,16 +109,16 @@ include('config/connect.php');
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>   
     </div>
     <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
+        <div class="carousel-item active" data-bs-interval="10000" id="vege-carousel">
         <img src="./images/vegetable.jpeg" class="d-block w-auto mx-auto h-100" alt="...">
-        <div class="carousel-caption d-none d-md-block text-light">
-            <h5>Vegetables</h5>    
+        <div class="carousel-caption d-none d-md-block text-light ">
+            <h5 class="fw-bolder fs-1" >15% Offer on Vegetables</h5>    
         </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
+        <div class="carousel-item" data-bs-interval="2000" id="fruit-carousel">
         <img src="./images/fruits.jpeg" class="d-block w-auto mx-auto h-100" alt="...">
         <div class="carousel-caption d-none d-md-block text-light">
-            <h5>Fruits</h5>
+            <h5 class="fw-bolder fs-1 ">20% Offer on Fruits</h5>
         </div>
         </div>
     </div>
@@ -144,6 +156,68 @@ include('config/connect.php');
                 <img src="./images/homeacre.png" alt="" class="w-50 py-3 text-center mx-auto">
         </div>
     </div>
+
+    <br><br>
+    <h3 class="text-center text-secondary fs-1"> Today Deals</h3>
+    <br><br>
+
+    <div class="container row mx-auto my-1">
+        <div class="col">
+        <div class="card shadow border-light rounded border-1" style="width: 18rem; height:25rem">
+            <div class="w-75 mx-auto">
+            <img src="./images/deals/fantasy.jpeg" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Britannia Dark Fantasy 150gm</h5>
+                <p class="card-text fs-3 text-success">₹50 <span class="text-decoration-line-through text-danger">₹100</span></p>
+                <a href="#" class="btn btn-warning border border-dark text-center position-absolute bottom-0 start-50 translate-middle-x mb-3">Add to Cart</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col">
+        <div class="card shadow border-light rounded border-1" style="width: 18rem; height:25rem">
+            <div class="w-75 mx-auto">
+            <img src="./images/deals/dhal.jpeg" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Udhaiyam Thoor Dhal 2kg</h5>
+                <p class="card-text fs-3 text-success">₹150 <span class="text-decoration-line-through text-danger">₹250</span></p>
+                <a href="#" class="btn btn-warning border border-dark text-center position-absolute bottom-0 start-50 translate-middle-x mb-3">Add to Cart</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col">
+        <div class="card shadow border-light rounded border-1" style="width: 18rem; height:25rem">
+            <div class="w-75 mx-auto">
+            <img src="./images/deals/chocolate.jpeg" class="card-img-top img-fluid"  alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Diary Milk Crackles 60gm (Buy 2 + Get 1)</h5>
+                <p class="card-text fs-3 text-success">₹60 <span class="text-decoration-line-through text-danger">₹75</span></p>
+                <a href="#" class="btn btn-warning border border-dark text-center position-absolute  bottom-0 start-50 translate-middle-x mb-3">Add to Cart</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col">
+        <div class="card shadow border-light rounded border-1" style="width: 18rem; height:25rem">
+            <div class="w-75 mx-auto">
+            <img src="./images/deals/oil.jpeg" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Fortune Cooking Oil 5L (Family Saving Offer) </h5>
+                <p class="card-text fs-3 text-success">₹300 <span class="text-decoration-line-through text-danger">₹450</span></p>
+                <a href="#" class="btn btn-warning border border-dark text-center position-absolute bottom-0 start-50 translate-middle-x mb-3">Add to Cart</a>
+            </div>
+        </div>
+        </div>
+        
+
+    </div>
+
+    <br>
 
 
 
