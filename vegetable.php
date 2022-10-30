@@ -11,7 +11,7 @@ include('config/connect.php');
     <?php include('links.php') ?> 
     <style>
         #veg-list{
-             background-color:#8AFF8A;
+             background-color: #8AFF8A;
              border-radius:25px;
         }
        
@@ -34,7 +34,7 @@ include('config/connect.php');
         </div>   
     </nav>
     <br>
-    <h3 class="text-center text-secondary fs-2" > Fresh Vegetables </h3>
+    <h3 class="text-center text-secondary fs-1" > Fresh Vegetables </h3>
     <br>
 
     <div class = "p-4 m-2" id="veg-list"> 
@@ -99,7 +99,7 @@ include('config/connect.php');
             </div>
             <div class="card-body text-center">
                 <p class="text-success text-center border"> Available </p>
-                <h5 class="card-title">Carrot 1kg</h5>
+                <h5 class="card-title">Pomegranate 1kg</h5>
                 <p class="card-text fs-4 text-success">₹40 <span class="text-decoration-line-through text-danger">₹58</span></p>
                 <div class="position-absolute bottom-0 start-50 translate-middle-x">
                 <a href="#" class="btn btn-success border border-dark text-center my-2">Buy Now</a>
@@ -184,6 +184,7 @@ include('config/connect.php');
             </div>
         </div>
         </div>
+        
             
         
 
