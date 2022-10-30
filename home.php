@@ -50,7 +50,9 @@ include('config/connect.php');
             background-attachment: fixed;
             background-size: cover;
         }
-        
+        #deals{
+             background-color:#B1D4E0;
+        }
        
     </style>
     
@@ -109,7 +111,7 @@ include('config/connect.php');
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>   
     </div>
     <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000" id="vege-carousel">
+        <div class="carousel-item active w-100" data-bs-interval="10000" id="vege-carousel" >
         <img src="./images/vegetable.jpeg" class="d-block w-auto mx-auto h-100" alt="...">
         <div class="carousel-caption d-none d-md-block text-light ">
             <h5 class="fw-bolder fs-1" >15% Offer on Vegetables</h5>    
@@ -164,7 +166,8 @@ include('config/connect.php');
     <h3 class="text-center text-secondary fs-1"> Today Deals</h3>
     <br>
 
-    <div class="container row mx-auto my-1">
+    <div class="p-4" id="deals">
+    <div class="container row mx-auto my-1" >
         <div class="col">
         <div class="card shadow border-light rounded border-1" style="width: 18rem; height:25rem">
             <div class="w-75 mx-auto">
@@ -216,8 +219,7 @@ include('config/connect.php');
             </div>
         </div>
         </div>
-        
-
+    </div>
     </div>
 
     <br><br>
